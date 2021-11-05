@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    height: 70%;
+    font-family: 'Fruktur', cursive;
+    margin: 20px auto;
+}
+.block {
+    background-color: #86BBD8;
+    color: #F6AE2D;
+    border: solid 2px black;   
+    padding: 50px;
+    font-size: 25px;
+    width: 50%;
+    margin: 20px auto;
+    text-decoration: none;
+}   
+.block:hover {
+    background-color: red;
+    cursor:pointer ;
+    transition: 1s;
+}
+.fon {
+    font-family: 'Fruktur', cursive;
+}
+.a{
+    text-decoration: none;
+}
